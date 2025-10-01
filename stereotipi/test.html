@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Navbar with Gradient Dividers</title>
+<title>Stereotipi</title>
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 <style>
@@ -14,13 +14,42 @@
   }
 
   body {
-    padding-top: 56px;
+      font-family: 'Inter', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #2c2c2c;
+      background-color: #fefefe;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+      font-family: 'Merriweather', Georgia, serif;
+      color: #1a1a1a;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 0.75rem;
+  }
+
+  p {
+      color: #444;
+      max-width: 800px;
+      margin-bottom: 1.25rem;
+  }
+
+  a {
+      color: #0d6efd;
+      text-decoration: none;
+      transition: color 0.3s ease;
+  }
+
+  a:hover {
+      color: #0a58ca;
+      text-decoration: underline;
   }
 
   :root {
-  --sec1: #7b9c84;
-  --sec2: #50e3c2;
-  --sec3: #f5a623;
+  --sec1: #96A78D;
+  --sec2: #B6CEB4;
+  --sec3: #D9E9CF;
   }
   .section {
     height: 100vh;
@@ -59,7 +88,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Družbeno - Ekonomski Stereotipi</a>
+      <a class="navbar-brand" href="#">Stereotipi</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -75,8 +104,29 @@
   </nav>
 
   <div id="section1" class="section">
-    Section 1 - bla bla bla
-    <img src="block.png">
+    <table>
+      <tr>
+        <td>
+          <h1>Kaj je knjiga brez platnic?</h1>
+          <br>
+          <br>
+        </td>
+      </tr>
+        <td> 
+          <br>
+          <p>
+            Smo dijaki gimnazije Vič, ki s pomočjo erazmus+ izvaja različne projekte. Knjiga brez platnic je eden izmed teh.
+            Naš cilj je predstaviti ljudi, ki so pogosto žrtve predsodkov v drugačni luči ter njihove zgodbe/izkušnje deliti z drugimi.
+            Pri tem se tudi sami želimo znebiti naših predsodkov, ki se jih morda sploh ne zavedamo.  
+          </p>
+          <br>
+        </td>
+      <tr>
+        
+      </tr>
+    </table> 
+    
+    
   </div>
 
   <div class="gradient-1-2"></div>
